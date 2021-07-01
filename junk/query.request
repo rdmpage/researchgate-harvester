@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>baseURL</key>
+	<string>https://www.researchgate.net/profile/Leopoldo_Rueda</string>
+	<key>followRedirect</key>
+	<true/>
+	<key>handleJSONPCallbacks</key>
+	<false/>
+	<key>headers</key>
+	<array>
+		<dict>
+			<key>header</key>
+			<string>Cookie</string>
+			<key>inUse</key>
+			<true/>
+			<key>value</key>
+			<string>csuuidSekindo=60b4b3590d7c5; _ga=GA1.2.16687561.1599661973; _gat_UA-58591210-1=1; _gid=GA1.2.984597283.1622455124; __gads=ID=0a5f09018b1ca5c9-228caa0f59c800e9:T=1622546413:RT=1622546413:S=ALNI_MbYxjfEcKKmGDG6kYslyEqZuATXxw; cili=_2_MzFjM2QzZTJmYzk2Y2E3MjU0YTM1MTFlOWZjM2Q2ODkzYWY5NTEwZjMwZGU3YTc2YTY5MDhkZTc0YzQzNDg5YV8yMDgwNTIxOzA%3D; cirgu=_1_6ARqYsH6E48rwET%2FZ5DTG%2BjIWLHq83Yj%2FxtJIjiAYOAjFu4aEemhgIIL%2F1nwroPRy%2B4oYw%3D%3D; did=aKvWVtyNnzB0CrZ4Qg1wShkrdT0UHoY9iXdMtnpKJqOz0OWHcyeVSTriDAKwAfB1; pl=Et5znXBkq1y1iJdP9bLKvVW1XMVgoqe32T6A1YWGGv1s0FmkOcyuEkrHX1DIJtPkaaJpERRy7VDEXtGndtBxWjS4SKqniCaZa3RwMWNhc9qrnTeHBf4EDqylFbJxvpOp; sid=iSj4JtgNSFt1hw9GT5aLG0oksJf0QBREkjTgeuPlzJMCo0MKlboW9g1vM2YU4NWEBZ8fQyEwRzg62K6NB0onfs6g0QES1TW24Lu2EyyUhXTz1KOGclhgUZkSzX4h3RDU; ptc=RG1.9180442906546526239.1498133507; SKpbjs-id5id=%7B%22created_at%22%3A%222021-05-31T09%3A58%3A47.850594Z%22%2C%22id5_consent%22%3Atrue%2C%22original_uid%22%3A%22ID5-ZHMON3a1PX3YgHNzAXFaLu8FGPhuWqXnzbLP7A1HTg!ID5*M6tJ7V6VsZ8UO4TRGuJ1-EcMAbqRjV4Hji62bYXuQ-wAALu2YmALuNouXGQDOPHg%22%2C%22universal_uid%22%3A%22ID5-ZHMOtrNJtXdD8dVOVoecNUTBA0mTmWn4zYKalgPJcw!ID5*Yg7cwY712DtPBWBbdhAWEg0CUI1x1QjnwIsTFK5FWP0AAFIcQD4dNNUKsT0fgJtK%22%2C%22signature%22%3A%22ID5_AV2r9n9zmAeiKe1Sebu5p2ryDExh82S5HlydVN4E5skJtqQa12ZeNC_x2o7NVlOI4cuYON6uKHj_43xAsWVa1Xc%22%2C%22link_type%22%3A1%2C%22cascade_needed%22%3Atrue%2C%22privacy%22%3A%7B%22jurisdiction%22%3A%22gdpr%22%2C%22id5_consent%22%3Atrue%7D%7D; SKpbjs-id5id_last=Mon%2C%2031%20May%202021%2009%3A58%3A52%20GMT; SKpbjs-unifiedid=%7B%22TDID%22%3A%22eb9eae3f-7418-4df8-8a98-af8dc2202ab6%22%2C%22TDID_LOOKUP%22%3A%22FALSE%22%2C%22TDID_CREATED_AT%22%3A%222021-05-31T09%3A58%3A52%22%7D; SKpbjs-unifiedid_last=Mon%2C%2031%20May%202021%2009%3A58%3A52%20GMT; _pbjs_userid_consent_data=8887164488331670; addtl_consent=1~39.4.3.9.6.5.4.13.6.4.15.9.5.2.7.4.1.7.1.3.2.10.3.5.4.21.4.6.9.7.10.2.9.2.12.6.7.6.14.5.20.6.5.1.3.1.11.29.4.14.4.5.3.10.6.2.9.6.6.4.5.3.1.4.29.4.5.3.1.6.2.2.17.1.17.10.9.1.8.6.2.8.3.4.142.4.8.35.7.15.1.14.3.1.8.10.14.11.3.7.25.5.18.9.7.41.2.4.18.21.3.4.2.1.6.6.5.2.14.18.7.3.2.2.8.20.8.8.6.3.10.4.20.2.4.9.3.1.6.4.11.1.3.22.16.2.6.8.2.4.11.6.5.17.16.11.8.1.10.28.8.4.1.3.21.2.7.6.1.9.30.17.4.9.15.8.7.3.6.6.7.2.4.1.7.12.13.22.13.2.12.2.10.1.4.15.2.4.9.4.5.1.3.7.13.5.15.4.13.4.14.8.2.15.2.5.5.1.2.2.1.2.14.7.4.8.2.9.10.18.12.13.2.18.1.1.3.1.1.9.25.4.1.19.8.4.5.2.1.5.4.8.4.2.2.2.14.2.13.4.2.6.9.6.3.4.3.5.2.3.6.10.11.2.4.3.16.3.11.3.1.2.3.9.19.11.15.3.10.7.6.4.3.4.9.3.3.3.1.1.1.6.11.3.1.1.7.4.6.1.10.5.2.6.3.2.2.4.3.2.2.7.2.13.7.12.2.1.6.4.5.4.3.2.2.4.1.3.1.1.1.2.9.1.6.9.1.5.2.1.7.2.8.11.1.3.1.1.2.1.3.2.6.1.5.6.1.5.3.1.3.1.1.2.2.7.7.1.4.1.2.6.1.2.1.1.3.1.1.4.1.1.2.1.8.1.7.4.3.2.1.3.1.4.3.9.6.1.15.10.28.1.2.1.1.12.3.4.1.6.3.4.7.1.3.1.1.3.1.5.3.1.3.2.2.1.1.4.2.1.2.1.1.1.2.2.4.2.1.2.2.2.4.1.1.1.2.1.1.1.1.1.1.1.1.1.1.1.2.2.1.1.2.1.2.1.7.1.2.1.1.1.2.1.1.1.1.2.1.1.3.2.1.1.8.1.1.1.5.2.1.6.5.1.1.1.1.1.2.2.3.1.1.4.1.1.2.2.1.1.4.2.1.1.2.3.2.1.2.3.1.1.1.1.4.1.1.1.5.1.9.3.1.5.1.1.3.4.1.2.3.1.4.2.1.2.2.2.1.1.1.1.1.1.11.1.3.1.1.2.2.1.4.2.3.2.1.4.1.1.1.1.1.3.2.1.1.2.5.1.9.4.1.1.3.1.4.3.1.4.5.1.7.2.1.1.1.2.1.1.1.4.2.1.12.1.1.3.1.2.2.3.1.2.1.1.1.2.1.1.2.1.1.1.1.2.1.3.1.5.1.2; euconsent-v2=CPHDwDRPHDwDRAKAXAENBcCsAP_AAH_AAAYgH3tf_X__bX9j-_59__t0eY1f9_7_v-wzjhfdt-8N2P_X_L0X42E7PF36pq4KuR4Eu3LBIQNlHOHUTUmw6okVrTPsak2Mr7NKJ7LEmnMZe2dYGHtfn91TuZKY7_78_9fz3_-v_v___9f3r-3_3__59X---_e_V399zLv9__3__9gfiASYal8AF2JY4Mk0aVQogQhWEh0AoAKKAYWiawgYXBTsrAI9QQMAEJqAjAiBBiCjFgEAAgEASERASAHggEQBEAgABACpAQgAImAQWAFgYBAAKAaFiBFAEIEhBkcFRymBARItFBPZWAJRd7GmEIZRYAUCj-iowEShBAsDISFg5gAA.YAAAAAAAAAAA</string>
+		</dict>
+	</array>
+	<key>httpMethod</key>
+	<string>GET</string>
+	<key>jsonpScript</key>
+	<string></string>
+	<key>paramBodyUIChoice</key>
+	<integer>0</integer>
+	<key>parameters</key>
+	<array/>
+	<key>parametersType</key>
+	<integer>0</integer>
+	<key>presentBeforeChallenge</key>
+	<false/>
+	<key>stringEncoding</key>
+	<integer>4</integer>
+	<key>usingHTTPBody</key>
+	<false/>
+</dict>
+</plist>
