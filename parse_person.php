@@ -150,21 +150,26 @@ foreach ($files as $filename)
 			}
 		}	
 
-		echo '<table>';
-		foreach ($people as $url => $image)
+		if (0)
 		{
-			echo '<tr>';
-			echo '<td>' . $url . '</td>';
-			echo '<td><img src="' . $image . '"></td>';
-			echo '</tr>';
-			echo "\n";
+			echo '<table>';
+			foreach ($people as $url => $image)
+			{
+				echo '<tr>';
+				echo '<td>' . $url . '</td>';
+				echo '<td><img src="' . $image . '"></td>';
+				echo '</tr>';
+				echo "\n";
+			}
+			echo '</table>';
 		}
-		echo '</table>';
 
 		$count = 1;
 		foreach ($people as $url => $image)
 		{
 			$f = $url;
+			
+			echo $f . "\n";
 			
 			if ($f == 'https://www.researchgate.net/null')
 			{
@@ -187,6 +192,7 @@ foreach ($files as $filename)
 				
 				if (file_exists($image_filename))
 				{
+					echo "Have $image_filename\n";
 					$ok = true;
 				}
 				
