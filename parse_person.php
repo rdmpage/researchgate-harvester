@@ -182,6 +182,7 @@ foreach ($files as $filename)
 				$f = str_replace('https://www.researchgate.net/scientific-contributions/', '', $f);
 				$f = str_replace('profile/', '', $f);
 				$f = str_replace('scientific-contributions/', '', $f);
+				$f = str_replace('/scores', '', $f);
 				
 				$f = preg_replace('/\?.*$/', '', $f);
 				
