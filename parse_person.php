@@ -17,6 +17,9 @@ function get($url)
 	  CURLOPT_URL =>$url,
 	  CURLOPT_FOLLOWLOCATION => TRUE,
 	  CURLOPT_RETURNTRANSFER => TRUE,
+	  CURLOPT_SSL_VERIFYHOST => FALSE,
+	  CURLOPT_SSL_VERIFYPEER => FALSE,
+
 	);
 	
 	$ch = curl_init();
