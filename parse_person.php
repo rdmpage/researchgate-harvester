@@ -121,9 +121,6 @@ foreach ($files as $filename)
 
 		foreach ($dom->find('li[class=nova-e-list__item] a') as $a)
 		{
-			echo "x\n";
-		
-			
 	
 			foreach ($a->find('meta[itemprop=image]') as $meta)
 			{
@@ -146,8 +143,8 @@ foreach ($files as $filename)
 			}
 			
 	
-			echo $url . "\n";
-			echo $image . "\n";
+			echo "url=$url\n";
+			echo "image=$image\n";
 	
 			if ($url != '' && $image != '')
 			{
@@ -183,9 +180,17 @@ foreach ($files as $filename)
 					$url = 'https://www.researchgate.net/profile/' . $m['id'];
 				}
 			}
+
+			foreach ($dom->find('a[class=nova-legacy-e-link nova-legacy-e-link--color-inherit nova-legacy-e-link--theme-bare]') as $a)
+			{
+				if (preg_match('/profile\/(?<id>.*)/', $a->href, $m))
+				{
+					$url = 'https://www.researchgate.net/profile/' . $m['id'];
+				}
+			}
 			
-			echo $image . "\n";
-			echo $url . "\n";
+			echo "url=$url\n";
+			echo "image=$image\n";
 			
 			if ($url != '' && $image != '')
 			{
@@ -209,6 +214,9 @@ foreach ($files as $filename)
 			}
 			echo '</table>';
 		}
+		
+		echo "People\n";
+		print_r($people);
 
 		$count = 1;
 		foreach ($people as $url => $image)
